@@ -16,7 +16,7 @@ let highscore = 0;
 const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
 };
-document.querySelector('.number').textContent = secretNumber;
+document.querySelector('.number').textContent = '?';
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
 
